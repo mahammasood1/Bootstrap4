@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <title>Learning Bootstrap</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="jumbotron text-center">
+            <h1>Welcome to BreakingNews!</h1>
+            
+            <p>Your ultimate source of latest news from around the globe.</p>
+        </div>
+    
+        <div class="btn-group" style="padding-left:10px;">
+          <button type="button" class="btn btn-secondary">International</button>
+          <button type="button" class="btn btn-secondary">Local</button>
+          <button type="button" class="btn btn-secondary">Sports</button>
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+               Entertainment
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Music</a>
+              <a class="dropdown-item" href="#">Television</a>
+            </div>
+          </div>
+        </div>
+        <br><br>
+
+            <div class="row" style="margin-left:10px; margin-right:10px;">
+
+                <div class="col-sm-4">
+                    <h3 class="display-4">The drastic fall of the Pakistani Rupee</h3>
+                    <img class="img-fluid img-thumbnail" src="https://www.brecorder.com/wp-content/uploads/2018/06/rupees-1-e1529584485346.jpg" alt="pkr">
+                    <blockquote class="blockquote bg-light text-dark">Rupee weakens to an all-time low of 162.16 <footer class="blockquote-footer">Express Tribune</footer>
+                    </blockquote>
+
+                    <div class="alert alert-secondary">
+                        <a href="https://tribune.com.pk/story/2000456/2-rupee-hits-time-low-160-us-dollar-inter-bank-market/" class="alert-link">Read more</a>.
+                    </div>
+                    
+                </div>
+                
+                <div class="col-sm-4">
+                    <h3 class="display-4">Afghanistan's Ghani arrives in Pakistan</h3>
+                    <img class="img-fluid img-thumbnail" src="https://www.samaa.tv/wp-content/uploads/2019/01/imran-khan.jpg" alt="ghani">
+                    <blockquote class="blockquote bg-light text-dark">This is the Afghan president's third visit to the country. <footer class="blockquote-footer">Express Tribune</footer>
+                    </blockquote>
+
+                    <div class="alert alert-secondary">
+                        <a href="https://tribune.com.pk/story/2001063/1-afghan-president-ashraf-ghani-arrives-pakistan/" class="alert-link">Read more</a>.
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4">
+                    <h3 class="display-4">Is Trump transforming America?</h3>
+                    <img class="img-fluid img-thumbnail" src="https://www.washingtonpost.com/resizer/0p-roaNxyn0M5-YTto4l6dNyBLw=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2GH54XDKZQI6TD2E5DMLWHPZQY.jpg" alt="Trump">
+                    <blockquote class="blockquote bg-light text-dark">A review of Trump's effect on the US.<footer class="blockquote-footer">Express Tribune</footer>
+                    </blockquote>
+
+                    <div class="alert alert-secondary">
+                        <a href="https://tribune.com.pk/story/2000841/6-trump-transforming-america/" class="alert-link">Read more</a>.
+                    </div>
+    
+                </div>
+
+            </div>
+            <br><br>
+            <div class="row" style="margin-left: 10px; margin-right:10px;">
+                  
+                
+                   <div class="col-sm-12 table-responsive-sm" >
+                    <h3 class="display-4">Currency Rates Today</h3>
+                   <p> <span class="badge badge-secondary">Latest</span></p>
+                    <table class="table table-bordered table-hover">
+                            <thead class="thead-light">
+                              <tr>
+                                <th>Currency</th>
+                                <th>Buying</th>
+                                <th>Selling</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>US Dollar</td>
+                                <td>160.00 PKR</td>
+                                <td>162.00 PKR</td>
+                              </tr>
+                              <tr>
+                                <td>Euro</td>
+                                <td>178.50 PKR</td>
+                                <td>183.50 PKR</td>
+                              </tr>
+                              <tr>
+                                <td>British Pound</td>
+                                <td>199.00 PKR</td>
+                                <td>203.00 PKR</td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+                          <a href="https://www.urdupoint.com/en/business/currency-rate-in-pakistan-dollar-euro-pou-654141.html" type="button" class="btn btn-primary btn-sm">View all</a>
+            <br><br>
+                </div>
+
+            </div>
+
+            
+        </div>
+
+        <ul class="pagination justify-content-end" style="margin:20px 5px;">
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+
+        <button style="margin-left:10px; margin-bottom:5px;" data-toggle="collapse" data-target="#demo">Credits</button>
+
+
+        <div id="demo" class="card collapse">
+            <div class="card-body">
+              <h4 class="card-title"></h4>
+                  <p class="card-text">This website has been designed by Maham Masood.</p>
+                 
+        </div>
+
+    </body>
+</html>
