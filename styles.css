@@ -77,6 +77,11 @@ input[type=text], select {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+.section-white {
+    padding: 1.5em 0;
+ }
+
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -92,6 +97,10 @@ input[type=text], select {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+.container {
+    max-width: 930px;
+  }
+
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -123,3 +132,31 @@ input[type=text], select {
     .col-12 {width: 100%;}
 
 }
+
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 15;
+    margin: 0;
+    padding: 0 25px 25px 0;
+    text-align: right;
+  }
+  
+ 
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+  
+
+  
